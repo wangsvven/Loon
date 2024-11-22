@@ -1,1 +1,11 @@
+#!name= Craft-文件笔记编辑器
+#!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
 
+
+
+[Script]
+http-request ^https?:\/\/(api|docs)\.craft\.do\/(api\/)?(auth\/v\d\/profile|subscription\/(receipt|teams\/get-subscriptions)) url script-response-body https://raw.githubusercontent.com/wangsvven/loon/refs/heads/main/Scripts/Craft.js
+
+
+[MITM]
+hostname = api.craft.do
