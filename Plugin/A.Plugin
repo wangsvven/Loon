@@ -12,4 +12,3 @@ http-response https://appraven.net/appraven/graphql script-path=https://raw.gith
 [MITM]
 hostname = api.craft.do, appraven.net
 
-https://appraven.net/appraven/graphql url script-response-body https://raw.githubusercontent.com/wangsvven/Loon/refs/heads/main/Scripts/AppRaven.js
