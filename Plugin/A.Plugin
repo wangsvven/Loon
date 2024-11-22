@@ -4,7 +4,7 @@
 
 
 [Script]
-http-request ^https?:\/\/(api|docs)\.craft\.do\/(api\/)?(auth\/v\d\/profile|subscription\/(receipt|teams\/get-subscriptions)) url script-response-body https://raw.githubusercontent.com/wangsvven/loon/refs/heads/main/Scripts/Craft.js
+http-response ^https?:\/\/(api|docs)\.craft\.do\/(api\/)?(auth\/v\d\/profile|subscription\/(receipt|teams\/get-subscriptions)) url script-response-body https://raw.githubusercontent.com/wangsvven/loon/refs/heads/main/Scripts/Craft.js
 
 
 [MITM]
