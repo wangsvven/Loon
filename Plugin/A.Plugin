@@ -4,7 +4,7 @@
 
 
 [Script]
-http-response ^https?:\/\/(api|docs)\.craft\.do\/(api\/)?(auth\/v\d\/profile|subscription\/(receipt|teams\/get-subscriptions)) script-path=https://raw.githubusercontent.com/wangsvven/loon/refs/heads/main/Scripts/Craft.js
+http-response ^https?:\/\/(api|docs)\.craft\.do\/(api\/)?(auth\/v\d\/profile|subscription\/(receipt|teams\/get-subscriptions)) script-path = https://raw.githubusercontent.com/wangsvven/loon/refs/heads/main/Scripts/Craft.js
 
 
 [MITM]
