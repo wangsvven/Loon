@@ -7,7 +7,7 @@
 */
 /*
 [rewrite_local]
-^https?:\/\/(ksbapi\.jxedt\.com|ge-api\.jxedt\.com|userapi\.ksedt\.com|api\.ankianki\.com|search-api\.yisouti\.com)\/.* url script-response-body 全量抓包_log.js
+^https?:\/\/(ksbapi\.jxedt\.com|ge-api\.jxedt\.com|userapi\.ksedt\.com|api\.ankianki\.com|search-api\.yisouti\.com)\/.* url script-response-body https://raw.githubusercontent.com/wangsvven/Loon/refs/heads/main/Scripts/zb.js
 
 [mitm]
 hostname = ksbapi.jxedt.com, ge-api.jxedt.com, userapi.ksedt.com, api.ankianki.com, search-api.yisouti.com
